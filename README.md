@@ -1,3 +1,3 @@
 # whiteboard
 A Simple Whiteboard Using JS :)
-GIe it a try
+Give it a try
