@@ -3,12 +3,14 @@
 
 <head>
     <meta charset="UTF-8">
-    
+
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Whiteboard by MD</title>
     <link rel="stylesheet" href="index.css">
 </head>
+
+<!--Hola This is My Contribute: MD -->
 
 <body>
     <canvas id="canvas"></canvas>
@@ -22,19 +24,19 @@
     </div>
     <script defer="defer" src="index.js"></script>
     <script>
-    var couponWindow = {
-  width: $(window).width(),
-  height: $(window).height(),
-  resizing: false
-};
-var $w=$(window);
-$w.resize(function() {
-  if ($w.width() != couponWindow.width && !couponWindow.resizing) {
-    couponWindow.resizing = true;
-    window.resizeTo(couponWindow.width, $w.height());
-  }
-  couponWindow.resizing = false;
-});
+        var couponWindow = {
+            width: $(window).width(),
+            height: $(window).height(),
+            resizing: false
+        };
+        var $w = $(window);
+        $w.resize(function() {
+            if ($w.width() != couponWindow.width && !couponWindow.resizing) {
+                couponWindow.resizing = true;
+                window.resizeTo(couponWindow.width, $w.height());
+            }
+            couponWindow.resizing = false;
+        });
     </script>
 </body>
 
